@@ -1,15 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int x = 0;
 
 int main() {
-
-    for(int i =0; i < x; i++) {
-        continue;
-    }
-
-
+    
+    return 0;
 }
 
+int x = 0;
 
+for(int i =0; i < x; i++) {
+    continue;
+}
