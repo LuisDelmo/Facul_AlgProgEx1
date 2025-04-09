@@ -38,7 +38,7 @@ int main() {
     int litrosbebidos = contadorDelitros();
 
     if (litrosbebidos >= 1000) {
-        printf("TA doido mulecote bebeu logo %d litros",litrosbebidos);
+        printf("TA doido mulecote bebeu logo %d litrao",litrosbebidos / 1000);
     } else {
         printf("bebeu logo %d ml esperava mais",litrosbebidos);
     }
